@@ -1,9 +1,16 @@
 from src.logger import logging
 from src.exception import CustomeException
 import sys
+from src.pipeline.stage_01_data_ingestion_pipeline import DataIngestionTrainingPipeline
 
-try:
-    a = 1/0
-except Exception as e:
-    logging.info("Error aai")
-    raise CustomeException(e,sys)
+
+STAGE_NAME = "Data ingestion Stage"
+
+if __name__=="__main__":
+    try:
+        logging.info(f">>>>>>>>>{STAGE_NAME}<<<<<<<<<<<")
+        obj = DataIngestionTrainingPipeline()
+        obj.main()
+        logging.info(f">>>>>>>>>>>{STAGE_NAME} Completed <<<<<<<<<<<<")
+    except Exception as e:
+        raise CustomeException(e,sys)
