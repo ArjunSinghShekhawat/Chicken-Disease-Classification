@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Chicken-Disease-Classification
+Version: 0.0.1
+Summary: End to End deep learning projects with using pipeline concept and industry standard project structure of this project. In this project used python, pandas, numpy, tensorflow, seaborn, matplotlib, Flask and more library and packages are used in this project. This project is industry standard project.
+Author: Arjun Singh Shekhawat
+Author-email: shekhawatsingharjun12345@gmail.com
+Requires-Dist: tensorflow
+Requires-Dist: pandas
+Requires-Dist: dvc
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: python-box==6.0.2
+Requires-Dist: pyYAML
+Requires-Dist: tqdm
+Requires-Dist: ensure==1.0.2
+Requires-Dist: joblib
+Requires-Dist: types-PyYAML
+Requires-Dist: scipy
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
